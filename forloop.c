@@ -3,15 +3,19 @@
 #include <conio.h>
 using namespace std;
 void main(){
-    int ar[20];
     int even[10];
     int odd[10];
-    int k=0,i
-    for(i=0;i<20;i++,k++){
+    int k=0,i,m=0;
+    for(i=0;i<20;i++){
         if(ar[i]%2==0){
             even[k]=ar[i];
         }else{
-            odd[k]=ar[i];
+            odd[m]=ar[i];
         }
-        
+        k++;
+        m++;
     }
+    printf("%d",even);
+    printf("\n");
+    printf("%d",odd);
+}

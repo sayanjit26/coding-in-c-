@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <conio.h>
 void main(){
-    int a=0,b=1,c=0,n=20,i,even=0,odd=0;
+    int a=0,b=1,c=0,n=18,i,even=0,odd=0;
     printf("%d",a);
     printf(" ");
     printf("%d",b);
